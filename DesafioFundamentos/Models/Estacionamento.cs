@@ -40,6 +40,7 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Os veículos estacionados são:");
                 foreach (var veiculo in veiculos)
                 {
+                    // Para mostrar os veículos cadastrados antes de remover
                     Console.WriteLine(veiculo.ToUpper());
                 }
                 Console.WriteLine("Digite a placa do veículo para remover:");
